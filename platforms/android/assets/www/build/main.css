@@ -46261,6 +46261,14 @@ page-buyer-search-queue textarea {
   height: 17vh;
 }
 
+page-help .imageContainer {
+  text-align: center;
+}
+
+page-help #logo {
+  width: 40%;
+}
+
 page-seller-share-order textarea {
   max-width: 100%;
   width: 100%;

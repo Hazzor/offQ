@@ -60,8 +60,16 @@ export class BuyerSearchQueuePage implements OnInit,OnDestroy {
     }
 
     ngOnDestroy(){
-      this.loading.dismiss();
-      this.loading2.dismiss();
+      if(this.loading){
+
+        this.loading.dismiss();
+
+      }
+      if(this.loading2){
+        this.loading2.dismiss();
+      }
+      
+      
 
       if(this.userSub){
         this.userSub.unsubscribe();
@@ -92,7 +100,7 @@ export class BuyerSearchQueuePage implements OnInit,OnDestroy {
     if ((this.tips === undefined || this.tips === "") || (this.request === undefined || this.request === "") || (this.display === undefined || this.display === "")){
 
       let somethingWrong = this.alertCtrl.create({
-      title: 'Please fill in everything',
+      title: 'Complete everything first before proceed',
       // message: 'complete everything first before proceed',
       buttons: [
 

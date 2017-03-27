@@ -13,16 +13,35 @@
 
 <ion-content >
 
-  <ion-list *ngIf = "!searchPosts">
+  <!--<ion-list *ngIf = "!searchPosts">
     <ion-item *ngFor="let post of posts" (click)="locationClicked(post.geometry.location.lat, post.geometry.location.lng, post.name)">
       <h1>{{post.name}}</h1>
-      <!-- <img [src]="post.data.url" /> -->
+    <img [src]="post.data.url" /> 
+    </ion-item>
+  </ion-list>-->
+
+ <ion-list *ngIf = "!searchPosts">
+    <ion-item  *ngFor="let post of posts" (click)="locationClicked(post.geometry.location.lat, post.geometry.location.lng, post.name)">
+          <ion-icon name="ios-pin" item-left color="gray"></ion-icon>
+            <h2><b>{{post.name}}</b></h2>
+            
     </ion-item>
   </ion-list>
 
+
+
+   <!--<ion-list *ngIf = "searchPosts">
+    <ion-item  *ngFor="let searchPost of searchPosts" (click)="locationClicked(searchPost.geometry.location.lat, searchPost.geometry.location.lng, searchPost.name)">
+          <ion-icon name="ios-pin" item-left color="gray"></ion-icon>
+            <h1>{{searchPost.name}}</h1>
+            
+    </ion-item>
+  </ion-list>-->
+
   <ion-list *ngIf = "searchPosts">
     <ion-item *ngFor="let searchPost of searchPosts" (click)="locationClicked(searchPost.geometry.location.lat, searchPost.geometry.location.lng, searchPost.name)">
-      <h1>{{searchPost.name}}</h1>
+      <ion-icon name="ios-pin" item-left color="gray"></ion-icon>
+      <h2><b>{{searchPost.name}}</b></h2>
       <!-- <img [src]="post.data.url" /> -->
     </ion-item>
   </ion-list>

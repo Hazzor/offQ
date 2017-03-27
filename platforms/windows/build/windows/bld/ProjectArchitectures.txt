@@ -1,1 +1,1 @@
-C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\CordovaApp.Windows10.jsproj;neutral
+C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\CordovaApp.Windows10.jsproj;neutral

@@ -10,233 +10,233 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>88f2ad20-11f3-11e7-ad05-d7b20ed4b630</PackageIdentityName>
     <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\build\windows\bld\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\build\windows\debug\anycpu\win10\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\images\Login\logo.png">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\images\Login\logo.png">
       <PackagePath>www\images\Login\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\.gitkeep">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\.gitkeep">
       <PackagePath>www\.gitkeep</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.eot">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.eot">
       <PackagePath>www\assets\fonts\ionicons.eot</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.scss">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.scss">
       <PackagePath>www\assets\fonts\ionicons.scss</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\noto-sans.scss">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\noto-sans.scss">
       <PackagePath>www\assets\fonts\noto-sans.scss</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto.scss">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto.scss">
       <PackagePath>www\assets\fonts\roboto.scss</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.svg">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.svg">
       <PackagePath>www\assets\fonts\ionicons.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.ttf">
       <PackagePath>www\assets\fonts\ionicons.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\noto-sans-bold.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\noto-sans-bold.ttf">
       <PackagePath>www\assets\fonts\noto-sans-bold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\noto-sans-regular.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\noto-sans-regular.ttf">
       <PackagePath>www\assets\fonts\noto-sans-regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-bold.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-bold.ttf">
       <PackagePath>www\assets\fonts\roboto-bold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-light.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-light.ttf">
       <PackagePath>www\assets\fonts\roboto-light.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-medium.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-medium.ttf">
       <PackagePath>www\assets\fonts\roboto-medium.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-regular.ttf">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-regular.ttf">
       <PackagePath>www\assets\fonts\roboto-regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.woff">
       <PackagePath>www\assets\fonts\ionicons.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\noto-sans-bold.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\noto-sans-bold.woff">
       <PackagePath>www\assets\fonts\noto-sans-bold.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\noto-sans-regular.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\noto-sans-regular.woff">
       <PackagePath>www\assets\fonts\noto-sans-regular.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-bold.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-bold.woff">
       <PackagePath>www\assets\fonts\roboto-bold.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-light.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-light.woff">
       <PackagePath>www\assets\fonts\roboto-light.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-medium.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-medium.woff">
       <PackagePath>www\assets\fonts\roboto-medium.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-regular.woff">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-regular.woff">
       <PackagePath>www\assets\fonts\roboto-regular.woff</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\ionicons.woff2">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\ionicons.woff2">
       <PackagePath>www\assets\fonts\ionicons.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-bold.woff2">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-bold.woff2">
       <PackagePath>www\assets\fonts\roboto-bold.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-light.woff2">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-light.woff2">
       <PackagePath>www\assets\fonts\roboto-light.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-medium.woff2">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-medium.woff2">
       <PackagePath>www\assets\fonts\roboto-medium.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\fonts\roboto-regular.woff2">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\fonts\roboto-regular.woff2">
       <PackagePath>www\assets\fonts\roboto-regular.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\assets\icon\favicon.ico">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\assets\icon\favicon.ico">
       <PackagePath>www\assets\icon\favicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\audio\beep2.mp3">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\audio\beep2.mp3">
       <PackagePath>www\audio\beep2.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\audio\orderDone.mp3">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\audio\orderDone.mp3">
       <PackagePath>www\audio\orderDone.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\audio\success.mp3">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\audio\success.mp3">
       <PackagePath>www\audio\success.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\main.css">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\main.css">
       <PackagePath>www\build\main.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\css\splashscreen.css">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\css\splashscreen.css">
       <PackagePath>www\css\splashscreen.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\main.css.map">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\main.css.map">
       <PackagePath>www\build\main.css.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\main.js.map">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\main.js.map">
       <PackagePath>www\build\main.js.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\main.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\main.js">
       <PackagePath>www\build\main.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\polyfills.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\polyfills.js">
       <PackagePath>www\build\polyfills.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\build\sw-toolbox.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\build\sw-toolbox.js">
       <PackagePath>www\build\sw-toolbox.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova-js-src\confighelper.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova-js-src\confighelper.js">
       <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova-js-src\exec.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova-js-src\exec.js">
       <PackagePath>www\cordova-js-src\exec.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova-js-src\platform.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova-js-src\platform.js">
       <PackagePath>www\cordova-js-src\platform.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova-js-src\splashscreen.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova-js-src\splashscreen.js">
       <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\cordova_plugins.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
       <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
       <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
       <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
       <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
       <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
       <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
       <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
       <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
       <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\service-worker.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\service-worker.js">
       <PackagePath>www\service-worker.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\WinJS\js\base.js">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\images\Login\q5.jpg">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\images\Login\q5.jpg">
       <PackagePath>www\images\Login\q5.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\images\profile\face-01.jpg">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\images\profile\face-01.jpg">
       <PackagePath>www\images\profile\face-01.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\images\profile\face-02.jpg">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\images\profile\face-02.jpg">
       <PackagePath>www\images\profile\face-02.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\index.html">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\www\manifest.json">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\www\manifest.json">
       <PackagePath>www\manifest.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue2.0\offQueue2.0\platforms\windows\build\windows\debug\anycpu\win10\resources.pri">
+    <AppxPackagedFile Include="C:\Users\USER\Desktop\offQueue3.0\offQueue3.0\platforms\windows\build\windows\debug\anycpu\win10\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
