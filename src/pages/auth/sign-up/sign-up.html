@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Sign Up
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- <form (ngSubmit)="register()" #signUpForm="ngForm"> -->
+
+<ion-content class="sign-up" >
+
+  <div padding class="log-in-txt" >
+    Sign Up Now to be a Queuer or Requester!
+  </div>
+
+    <ion-list mode="wp">
+      <ion-item mode="wp">
+        <ion-input type="email" mode="wp" placeholder="E-mail" [(ngModel)]="form.email" name="name"></ion-input>
+      </ion-item>
+
+      <ion-item mode="wp">
+        <ion-input type="password" mode="wp" placeholder="Password" [(ngModel)]="form.password" name="password"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <!--<button ion-button block [disabled]="!signUpForm.form.valid"
+      class="sign-up-btn">Sign Up
+    </button>-->
+
+    <div padding class="error" *ngIf="error">
+      <p>{{error}}</p>
+    </div>
+
+</ion-content>
+
+<ion-footer>
+
+    <div class="buttonContainer">
+        <button ion-button class="button" color="cyan" round mode="ios" (click)="register()">Sign Up</button>
+    </div>
+
+</ion-footer>
+<!-- </form> -->

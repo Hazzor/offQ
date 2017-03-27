@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Payment</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+
+      <ion-item mode="wp">
+    <ion-label mode="wp" floating><ion-icon name="ios-card"></ion-icon>&nbsp;&nbsp;Card number</ion-label>
+    <ion-input mode="wp" [(ngModel)] = "number"></ion-input>
+  </ion-item>
+
+    <ion-item mode="wp" >
+      <ion-label mode="wp" floating>Expiry Date (mm/yy)</ion-label>
+      <ion-input mode="wp" [(ngModel)] = "expiry"></ion-input>
+    </ion-item>
+
+    <ion-item mode="wp" >
+      <ion-label mode="wp" floating>CVV</ion-label>
+      <ion-input mode="wp" [(ngModel)] = "cvv"></ion-input>
+    </ion-item>
+
+  <div style="text-align:center">
+    <div style="width:100%;height:10px"></div>
+    <h4 style="font-weight:200;font-size:15px">By default is pay via cash. Add a payment method now</h4>
+  </div>
+
+
+</ion-content>
+
+<ion-footer>
+
+    <div class="buttonContainer">
+      <button ion-button class="button" color="cyan" round mode="ios" (click)="update()">Update Info</button>
+    </div>
+
+</ion-footer>

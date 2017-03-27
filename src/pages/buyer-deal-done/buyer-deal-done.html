@@ -1,0 +1,144 @@
+<ion-header>
+
+    <ion-navbar color="light" hideBackButton>
+
+    <ion-title>Your Queuer</ion-title>
+
+       <ion-buttons start>
+
+      <button ion-button icon-only (click)="contact()">
+        <ion-icon color="gray" name = "call"></ion-icon>
+      </button>
+  </ion-buttons>
+
+  <ion-buttons end>
+
+      <button ion-button icon-only (click)="openOrder()">
+        <ion-icon color="gray" name = "list-box"></ion-icon>
+      </button>
+  </ion-buttons>
+
+  <ion-buttons end *ngIf = "!notify">
+
+      <button ion-button icon-only (click)="close()">
+        <ion-icon color="gray" name = "close"></ion-icon>
+      </button>
+  </ion-buttons>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content vertical-padding>
+
+  <ion-list mode="wp">
+
+    <ion-item class="item-border" mode="wp" color="light" *ngIf="!notify">
+        <h2 item-left><ion-icon name="md-notifications" color="cyan"></ion-icon> &nbsp;&nbsp;</h2>
+        <h2  item-left color="cyan"><b>You will be notified once your Queuer is done</b></h2>
+    </ion-item>
+
+    <ion-item class="item-border" mode="wp" color="light" *ngIf="notify">
+        <h2 item-left><ion-icon name="md-notifications" color="danger"></ion-icon> &nbsp;&nbsp;</h2>
+        <h2  item-left color="danger"><b>Your order is done!</b></h2>
+    </ion-item>
+
+    <ion-item >
+<!--
+       <ion-row>
+        <button ion-button clear mode="md" style="margin-left:-15px;"><h2 color="gray" item-left><ion-icon name="md-checkbox"></ion-icon>&nbsp;DONE</h2></button>
+      </ion-row>
+
+      <ion-row>
+        <div  style="text-align:center; width:100%; margin-bottom:5px">
+        <h2 color="cyan"><b>YOUR QUEUER</b></h2>
+        </div>
+      </ion-row>-->
+
+
+
+      <ion-row >
+        <div style="text-align:center; width:100%" >
+
+            <img src="images/profile/face-01.jpg" style="width:150px; height : 150px; padding:3px; border:1px solid lightgray; border-radius: 2px" >
+        </div>
+      </ion-row>
+
+      <ion-row>
+        <div  style="text-align:center; width:100%; margin-top:5px">
+        <h2 color="gray">{{passUser.queuerId}}</h2>
+        </div>
+      </ion-row>
+
+  </ion-item>
+
+    <!--<ion-item mode="wp">
+
+      <div style="text-align:center; width:100%" >
+
+          <h2>Hester Liong Khing Huat</h2>
+      </div>
+
+    </ion-item>-->
+
+    <ion-list no-lines >
+
+
+      <ion-item-divider color="light"><h2 class="itemDivider" color="gray">Description about Queuer</h2></ion-item-divider>
+
+      <ion-item mode="wp">
+        <h2 item-content text-wrap color="darkgray"><b>{{passUser.queuer}}</b></h2>
+     </ion-item>
+
+     <!--<ion-item mode="wp">
+      <h2 color="gray" item-left>Shirt colour:</h2> <h2 color="gray" item-content><b> Blue and black</b></h2>
+    </ion-item>-->
+
+ </ion-list>
+    <!--<ion-item no-lines>
+      <h2  item-left color="gray">Gender  : </h2> <h2 color="gray" item-content><b>Male</b></h2>
+    </ion-item>
+
+    <ion-item no-lines>
+      <h2  item-left color="gray">Height  : </h2> <h2 color="gray" item-content><b>175cm</b></h2>
+    </ion-item>-->
+
+    <!--<ion-list no-lines mode="wp">-->
+
+      <!--<ion-item-divider color="light"><h2 class="itemDivider" color="gray">Your Request</h2></ion-item-divider>
+
+      <ion-item no-lines  style="border-bottom:1px solid lightgray; padding-bottom:10px" >
+        <h2 item-content color="darkgray"><b>Help me order two Mac Burgers , 1 coke and 1 Milo warm</b></h2>
+     </ion-item>
+
+
+
+    <ion-item no-lines >
+      <h2  item-left color="gray">Tips offered : </h2> <h2 color="darkgray" item-content><b>RM 5</b></h2>
+    </ion-item>-->
+
+   <!--</ion-list>-->
+
+   <!--<ion-item  mode="wp" color="light" style="border-top:1px solid lightgray; border-bottom:1px solid lightgray" (click)="navigate()">
+          <h2 color="gray" item-left><ion-icon name="call" color="cyan"></ion-icon> &nbsp;&nbsp;</h2>
+          <div style="text-align:center; width:100%">
+            <h2 color="gray" item-left><b>013-9997771</b></h2></div>
+
+          <ion-icon color="cyan" item-right name="ios-arrow-forward"></ion-icon>
+  </ion-item>-->
+
+
+  </ion-list>
+
+</ion-content>
+
+<ion-footer >
+
+    <div class="buttonContainer">
+      <h6  item-left color="gray" style="font-weight:100">Tap this after receiving order from queuer</h6>
+      <button ion-button class="button" color="danger" round mode="ios" (click)="orderReceived()" [disabled] = "!notify"><ion-icon name="md-checkbox"></ion-icon>&nbsp;&nbsp;&nbsp;Order Received</button>
+    </div>
+
+</ion-footer>

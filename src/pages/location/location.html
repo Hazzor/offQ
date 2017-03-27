@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar >
+    <ion-title>Choose location</ion-title>
+  </ion-navbar>
+
+<ion-toolbar >
+  <ion-searchbar  placeholder="Where are you now?" mode="wp" (ionInput)="getItems($event)"></ion-searchbar>
+</ion-toolbar>
+
+</ion-header>
+
+
+<ion-content >
+
+  <ion-list *ngIf = "!searchPosts">
+    <ion-item *ngFor="let post of posts" (click)="locationClicked(post.geometry.location.lat, post.geometry.location.lng, post.name)">
+      <h1>{{post.name}}</h1>
+      <!-- <img [src]="post.data.url" /> -->
+    </ion-item>
+  </ion-list>
+
+  <ion-list *ngIf = "searchPosts">
+    <ion-item *ngFor="let searchPost of searchPosts" (click)="locationClicked(searchPost.geometry.location.lat, searchPost.geometry.location.lng, searchPost.name)">
+      <h1>{{searchPost.name}}</h1>
+      <!-- <img [src]="post.data.url" /> -->
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRmTX2PRRZ_YLoKDXqZGTSGLN6RsL2Gw4&callback=initMap"
+type="text/javascript"></script>

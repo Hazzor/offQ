@@ -1,0 +1,62 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content class="login-email">
+
+  <!--<img src="images/Login/q5.jpg" >-->
+  <div style="width:100%;height:10%"> </div>
+
+  <div class="imageContainer">
+    <img src="images/Login/logo.png" id="logo">
+  </div>
+
+  <form (ngSubmit)="login()" #loginForm="ngForm">
+    <!--<ion-list mode="wp">-->
+      <ion-item mode="wp">
+        <ion-input type="email" mode="wp" placeholder="E-mail" [(ngModel)]="form.email" name="name"></ion-input>
+      </ion-item>
+
+      <ion-item mode="wp">
+        <ion-input type="password" mode="wp" placeholder="Password" [(ngModel)]="form.password" name="password"></ion-input>
+      </ion-item>
+    <!--</ion-list>-->
+
+    <!--<button type="submit" ion-button block [disabled]="!loginForm.form.valid">
+      class="log-in-btn">Log In
+    </button>-->
+
+    <div id="buttonContainer">
+      <button ion-button id="button" color="primary" round mode="ios" [disabled]="!loginForm.form.valid" type="submit" >LOG IN</button>
+      <button ion-button clear mode="ios" color="gray" (click)="openForgotPasswordPage()">
+        <h6 style="font-weight:100">Forgot Password?</h6>
+      </button>
+    </div>
+
+    <div padding class="error" *ngIf="error">
+      <p>{{error}}</p>
+    </div>
+  </form>
+
+  <!--<ion-row>
+    <button ion-button round mode="ios"  (click)="openForgotPasswordPage()">
+      Forgot Password
+    </button>
+    <button ion-button round mode="ios" (click)="openSignUpPage()">
+      Sign Up
+    </button>
+  </ion-row>-->
+</ion-content>
+
+<ion-footer >
+
+    <ion-item style="text-align:center;border-top: 1px solid lightgrey; " no-lines>
+    <h4 color="gray">Don't have an account?</h4>
+
+    <button ion-button clear color="primary" (click)="openSignUpPage()">
+
+      <b>Sign Up</b>
+    </button>
+  </ion-item>
+
+</ion-footer>

@@ -1,0 +1,91 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>My Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content >
+
+  <ion-list mode="wp">
+
+    <ion-item >
+
+      <ion-row >
+      <div style="text-align:center; width:100%" >
+
+          <img src="images/profile/face-01.jpg" style="width:150px; height : 150px; padding:3px; border:1px solid lightgray; border-radius: 2px" >
+      </div>
+        </ion-row>
+
+        <ion-row >
+      <div style="text-align:center; width:100%" >
+
+          <!--<button ion-button small color="secondary"> <ion-icon name="image"></ion-icon> &nbsp; Change Picture</button>-->
+          <button ion-button small clear color="cyan" (click) = "doGetPicture()">CHANGE PICTURE</button>
+      </div>
+        </ion-row>
+      </ion-item>
+
+    <ion-item mode="wp">
+      <ion-input mode="wp" type="text" placeholder="Name" [(ngModel)] = "name"></ion-input>
+    </ion-item>
+
+
+    <ion-item mode="wp">
+      <ion-input mode="wp" type="tel" placeholder="Mobile phone number" [(ngModel)] = "mobile"></ion-input>
+    </ion-item>
+
+    <!--<ion-item mode="wp">
+      <ion-input mode="wp" type="number" placeholder="Height in cm" ></ion-input>
+    </ion-item>-->
+
+    <ion-item mode="wp">
+      <ion-input mode="wp" type="text" placeholder="Race ,eg : Malay" [(ngModel)] = "race"></ion-input>
+    </ion-item>
+
+      <ion-item>
+        <ion-label>Gender</ion-label>
+        <ion-select [(ngModel)]="gender">
+          <ion-option value="female" selected="true">Female</ion-option>
+          <ion-option value="male">Male</ion-option>
+        </ion-select>
+      </ion-item>
+
+
+
+
+    <!--<ion-item-divider color="light">
+      <h2 item-left color="gray"><b>Payment Details</b></h2>
+    </ion-item-divider>-->
+
+    <!--<ion-item mode="wp">
+    <ion-label mode="wp" floating>Card number</ion-label>
+    <ion-input mode="wp"></ion-input>
+  </ion-item>
+
+    <ion-item mode="wp" >
+      <ion-label mode="wp" floating>Expiry Date (mm/yy)</ion-label>
+      <ion-input mode="wp"></ion-input>
+    </ion-item>
+
+    <ion-item mode="wp" >
+      <ion-label mode="wp" floating>CVV</ion-label>
+      <ion-input mode="wp"></ion-input>
+    </ion-item>-->
+
+
+
+  </ion-list>
+
+
+
+</ion-content>
+
+<ion-footer>
+  <div class="buttonContainer">
+      <button ion-button class="button" color="cyan" round mode="ios" (click)="next()">Next</button>
+    </div>
+</ion-footer>

@@ -1,0 +1,41 @@
+<ion-menu [content]="content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item (click)="openProfile()">
+        <h2><ion-icon name="md-contact" color="primary"></ion-icon>&nbsp;&nbsp;My Profile</h2>
+      </button>
+
+      <button menuClose ion-item (click)="openEarning()">
+        <h2><ion-icon name="logo-usd" color="cyan"></ion-icon>&nbsp;&nbsp;My Earning</h2>
+      </button>
+
+      <button menuClose ion-item (click)="openHistory()">
+        <h2><ion-icon name="cash" color="gray"></ion-icon>&nbsp;&nbsp;History</h2>
+      </button>
+
+      <button menuClose ion-item (click)="openHelp()">
+        <ion-icon name="md-help-circle" color="blue"></ion-icon>&nbsp;&nbsp;About Us
+      </button>
+    </ion-list>
+
+    <ion-list>
+
+      <button menuClose ion-item (click)="logout()">
+        <ion-icon name="md-log-out" color="danger"></ion-icon>&nbsp;&nbsp;Logout
+      </button>
+
+    </ion-list>
+
+    
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

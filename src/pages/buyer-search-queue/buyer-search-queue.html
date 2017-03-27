@@ -1,0 +1,93 @@
+<ion-header>
+
+  <ion-navbar >
+    <ion-title>Fill In Your Info</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content >
+
+  <ion-list mode="wp" no-lines>
+
+    <ion-item class="item-border" mode="wp" color="light" >
+          <h2 item-left><ion-icon name="md-people" color="cyan"></ion-icon> &nbsp;&nbsp;</h2>
+          <h2  item-left color="cyan">3 Queuer Online in your area</h2>
+          <!--<ion-icon color="primary" item-right name="ios-arrow-forward"></ion-icon>-->
+    </ion-item>
+
+    <div style="width:100%; height:10px;"> </div>
+
+    <ion-item mode="wp">
+      <h2 color="gray" item-left>Location &nbsp;&nbsp;: </h2>
+      <h2  item-content><b>{{name}}</b></h2>
+    </ion-item>
+
+    <ion-item mode="wp">
+      <ion-label color="gray">Tips offered : <b>RM</b></ion-label>
+      <ion-input type="number" mode="wp" placeholder="5" [(ngModel)] = "tips"></ion-input>
+    </ion-item>
+
+     <!--<ion-item>
+      <ion-label color="gray">Shirt Color : </ion-label>
+      <ion-input type="text" mode="wp" placeholder="black t-shirt"></ion-input>
+    </ion-item>-->
+
+     <!--<ion-item mode="wp">
+      <ion-textarea mode="wp" placeholder="Description about your outfit today so that people can find you"></ion-textarea>
+    </ion-item>-->
+
+        <!--<ion-item mode="wp">
+      <h2 color="gray" item-left>Outfit of the day &nbsp;&nbsp;: </h2>
+    </ion-item>-->
+    <ion-item mode="wp">
+      <ion-textarea mode="wp" [(ngModel)] = "request" placeholder="REQUEST ORDER, Eg : Help me order two Hot Wings with two milo"></ion-textarea>
+    </ion-item>
+
+    <ion-item mode="wp">
+      <ion-label mode="wp" color="gray">Pick Shirt Color</ion-label>
+      <ion-select  mode="wp" (ionChange) = "colorClicked(color)"[(ngModel)] = "color">
+        <ion-option value="Blue">Blue</ion-option>
+        <ion-option value="Red">Red</ion-option>
+        <ion-option value="Green">Green</ion-option>
+        <ion-option value="Brown">Brown</ion-option>
+        <ion-option value="White">White</ion-option>
+        <ion-option value="Gray">Gray</ion-option>
+        <ion-option value="Black">Black</ion-option>
+        <ion-option value="Yellow">Yellow</ion-option>
+        <ion-option value="Orange">Orange</ion-option>
+        <ion-option value="Purple">Purple</ion-option>
+        <ion-option value="Pink">Pink</ion-option>
+        <ion-option value="Maroon">Maroon</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <div *ngIf = "showDescription">
+
+         <ion-textarea mode="wp" [(ngModel)] = "display"></ion-textarea>
+
+        <div style="width:100%; text-align:center">
+          <h6  item-left color="gray" style="font-weight:100; margin-top:-10px">This description will be shown to the Queuer</h6>
+       </div>
+   </div>
+
+<!-- <ion-card>
+
+
+    <ion-card-content>
+      <ion-item (click)="changePayment()">
+          <h2 item-left color="gray"><ion-icon name="cash"></ion-icon>&nbsp;&nbsp;&nbsp;Cash</h2>
+          <button color="gray" ion-button clear item-right >CHANGE</button>
+      </ion-item>
+  </ion-card-content>
+
+  </ion-card> -->
+
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+    <div class="buttonContainer">
+      <button ion-button class="button" color="cyan" round mode="ios" (click)="searchQueue()">FIND ME A QUEUER</button>
+    </div>
+</ion-footer>

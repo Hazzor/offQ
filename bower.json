@@ -1,0 +1,20 @@
+{
+  "name": "offq",
+  "description": "offqueue",
+  "main": "",
+  "authors": [
+    "Ionic Framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Hazzor/offQueue",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngCordova": "^0.1.27-alpha"
+  }
+}

@@ -1,0 +1,121 @@
+<ion-header>
+
+  <ion-navbar color="light" hideBackButton>
+
+    <ion-title>Your Requester</ion-title>
+
+  <ion-buttons start >
+
+      <button ion-button icon-only (click)="contact()">
+        <ion-icon color="gray" name = "call"></ion-icon>
+      </button>
+  </ion-buttons>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content vertical-padding>
+
+  <ion-list mode="wp">
+
+    <ion-item >
+<!--
+       <ion-row>
+        <button ion-button clear mode="md" style="margin-left:-15px;"><h2 color="gray" item-left><ion-icon name="md-checkbox"></ion-icon>&nbsp;DONE</h2></button>
+      </ion-row>-->
+
+      <!--<ion-row>
+        <div  style="text-align:center; width:100%; margin-bottom:5px">
+        <h2 color="primary"><b>YOUR BUYER</b></h2>
+        </div>
+      </ion-row>-->
+
+      <ion-row >
+        <div style="text-align:center; width:100%" >
+
+            <img src="images/profile/face-02.jpg" style="width:150px; height : 150px; padding:3px; border:1px solid lightgray; border-radius: 2px" >
+        </div>
+      </ion-row>
+
+      <ion-row>
+        <div  style="text-align:center; width:100%; margin-top:5px">
+          <h2 color="gray">{{userData.buyerId}}</h2>
+        </div>
+      </ion-row>
+
+  </ion-item>
+
+    <!--<ion-item mode="wp">
+
+      <div style="text-align:center; width:100%" >
+
+          <h2>Hester Liong Khing Huat</h2>
+      </div>
+
+    </ion-item>-->
+
+    <ion-list >
+      <ion-item-divider color="light"><h2 class="itemDivider" color="gray">Request</h2></ion-item-divider>
+
+      <ion-item no-lines mode="wp" style="border-bottom:1px solid lightgray; padding-bottom:10px">
+        <h2 item-content text-wrap color="darkgray"><b>{{userData.request}}</b></h2>
+     </ion-item>
+
+    <ion-item no-lines>
+      <h2  item-left color="gray">Tips from Requester : </h2> <h2 color="darkgray" item-content><b>RM {{userData.tips}}</b></h2>
+    </ion-item>
+
+     </ion-list>
+
+    <!--<ion-item no-lines>
+      <h2  item-left color="gray">Gender  : </h2> <h2 color="gray" item-content><b>Male</b></h2>
+    </ion-item>
+
+    <ion-item no-lines>
+      <h2  item-left color="gray">Height  : </h2> <h2 color="gray" item-content><b>175cm</b></h2>
+    </ion-item>-->
+
+    <!--<ion-list no-lines mode="wp">-->
+      <ion-item-divider color="light"><h2 class="itemDivider" color="gray">Description about Requester</h2></ion-item-divider>
+
+      <ion-item no-lines mode="wp" style="padding-bottom:10px">
+        <h2 item-content text-wrap color="darkgray"><b>{{userData.buyer}}</b></h2>
+     </ion-item>
+
+         <!--<ion-item mode="wp">
+      <h2 color="gray" item-left>Shirt colour :</h2> <h2 color="gray" item-content><b> Blue and black</b></h2>
+    </ion-item>-->
+   <!--</ion-list>-->
+
+   <!--<ion-item  mode="wp" color="light" style="border-top:1px solid lightgray; border-bottom:1px solid lightgray" (click)="navigate()">
+          <h2 color="gray" item-left><ion-icon name="call" color="primary"></ion-icon> &nbsp;&nbsp;</h2>
+          <div style="text-align:center; width:100%">
+            <h2 color="gray" item-left><b>013-8299173</b></h2></div>
+
+          <ion-icon color="primary" item-right name="ios-arrow-forward"></ion-icon>
+  </ion-item>-->
+
+
+  </ion-list>
+
+</ion-content>
+
+<ion-footer *ngIf="notify">
+
+    <div class="buttonContainer">
+      <h6  item-left color="gray" style="font-weight:100">Tap this after order is delivered to requester</h6>
+      <button ion-button class="button" color="danger" round mode="ios" (click)="orderDelivered()"><ion-icon name="md-checkbox"></ion-icon>&nbsp;&nbsp;&nbsp;Order Delivered</button>
+    </div>
+
+</ion-footer>
+
+<ion-footer *ngIf="!notify">
+    <div class="buttonContainer">
+      <h6  item-left color="gray" style="font-weight:100">Notify your requester when you're done</h6>
+      <button ion-button class="button" color="blue" round mode="ios" (click)="notifyBuyer()"><ion-icon name="ios-megaphone"></ion-icon>&nbsp;&nbsp;&nbsp;NOTIFY</button>
+    </div>
+
+</ion-footer>

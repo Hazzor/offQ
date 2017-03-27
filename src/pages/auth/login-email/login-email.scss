@@ -1,0 +1,74 @@
+.login-email {
+  // background-image: url("../../assets/img/auth-background.jpg");
+  background-size: 100%;
+  background-position-y: 50%;
+
+  .forgot-password-txt {
+    width: 50%;
+    color: white;
+  }
+
+  #buttonContainer{
+
+    text-align:center;
+    background-color:white;
+    padding-top:10px;
+    // padding-bottom:10px;
+    // padding-top:10px;
+    // border-top:1px solid lightgray;
+    
+
+    #button{
+    width:90%;
+    font-weight:500;
+
+}
+}
+
+// ::-webkit-scrollbar,
+// *::-webkit-scrollbar {
+//   display: none;
+// }
+
+
+  .sign-up-txt {
+    width: 50%;
+    text-align: right;
+    color: white;
+  }
+
+  form {
+    width: 95%;
+    margin: auto;
+
+    // .log-in-btn {
+    //   background-color: rgb(74, 165, 217);
+    //   margin: auto;
+    // }
+  }
+
+  .error {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(217, 74, 87);
+    p {
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  #logo{
+        width:50%;
+        // margin-top:100px;
+        margin-bottom : 15px;
+        
+    }
+
+  .imageContainer{
+        text-align:center;
+    }
+
+
+    
+}
