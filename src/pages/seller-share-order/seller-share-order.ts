@@ -53,6 +53,9 @@ export class SellerShareOrderPage implements OnInit, OnDestroy {
     if(this.authUserSub){
       this.authUserSub.unsubscribe();
     }
+    if(this.key){
+      this.users.remove(this.key);
+    }
   }
 
   colorClicked(color){
