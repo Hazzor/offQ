@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs/Subscription';
 
 import { Users } from '../../model/users.model';
 import { Home } from '../home/home';
-import { Block2Page } from '../block2/block2';
+import { BlockPage } from '../block/block';
 import { SellerReceiptPage } from '../seller-receipt/seller-receipt';
 
 @Component({
@@ -72,7 +72,7 @@ export class SellerDealDonePage implements OnInit, OnDestroy {
     }
 
     report(myEvent){
-       let popover = this.popoverCtrl.create(Block2Page);
+       let popover = this.popoverCtrl.create(BlockPage);
       popover.present(
         {
   ev: myEvent
