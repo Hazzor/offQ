@@ -18,6 +18,13 @@
       </button>
   </ion-buttons>
 
+  <ion-buttons end>
+
+      <button ion-button icon-only (click)="report($event)">
+        <ion-icon color="gray" name = "more"></ion-icon>
+      </button>
+  </ion-buttons>
+
   <ion-buttons end *ngIf = "!notify">
 
       <button ion-button icon-only (click)="close()">
@@ -62,7 +69,7 @@
       <ion-row >
         <div style="text-align:center; width:100%" >
 
-            <img src="images/profile/face-01.jpg" style="width:150px; height : 150px; padding:3px; border:1px solid lightgray; border-radius: 2px" >
+            <img src="images/profile/q-photo.jpg" style="width:150px; height : 150px; padding:3px; border:1px solid lightgray; border-radius: 2px" >
         </div>
       </ion-row>
 

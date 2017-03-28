@@ -46255,6 +46255,20 @@ ion-navbar.toolbar {
   font-weight: bold;
 }
 
+page-buyer-receipt ul {
+  padding: 0px;
+}
+
+page-buyer-receipt ul.rating li {
+  padding: 5px 10px !important;
+  background: none;
+  color: #ffb400;
+}
+
+page-buyer-receipt ul.rating li ion-icon {
+  font-size: 30px;
+}
+
 page-buyer-search-queue textarea {
   max-width: 100%;
   width: 100%;
@@ -46267,6 +46281,20 @@ page-help .imageContainer {
 
 page-help #logo {
   width: 40%;
+}
+
+page-seller-receipt ul {
+  padding: 0px;
+}
+
+page-seller-receipt ul.rating li {
+  padding: 5px 10px !important;
+  background: none;
+  color: #ffb400;
+}
+
+page-seller-receipt ul.rating li ion-icon {
+  font-size: 30px;
 }
 
 page-seller-share-order textarea {

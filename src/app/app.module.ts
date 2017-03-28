@@ -18,6 +18,8 @@ import { LocationPage } from '../pages/location/location';
 import { ProfilePage } from '../pages/profile/profile';
 import { PaymentPage } from '../pages/profile/payment/payment';
 import { HelpPage } from '../pages/help/help';
+import { BlockPage } from '../pages/block/block';
+import { Block2Page } from '../pages/block2/block2';
 
 import { BuyerSearchQueuePage } from '../pages/buyer-search-queue/buyer-search-queue';
 import { BuyerDealDonePage } from '../pages/buyer-deal-done/buyer-deal-done';
@@ -29,6 +31,8 @@ import { SellerShareOrderPage } from '../pages/seller-share-order/seller-share-o
 import { SellerBuyerApprovalPage } from '../pages/seller-buyer-approval/seller-buyer-approval';
 import { SellerDealDonePage } from '../pages/seller-deal-done/seller-deal-done';
 import { SellerReceiptPage } from '../pages/seller-receipt/seller-receipt';
+
+import { Ionic2RatingModule } from 'ionic2-rating';
 
 
 var config = {
@@ -47,6 +51,8 @@ var config = {
     ProfilePage,
     PaymentPage,
     HelpPage,
+    BlockPage,
+    Block2Page,
     BuyerSearchQueuePage,
     BuyerDealDonePage,
     BuyerReceiptPage,
@@ -64,6 +70,7 @@ var config = {
   ],
   imports: [
     FormsModule,
+    Ionic2RatingModule ,
     ReactiveFormsModule,
     IonicModule.forRoot(MyApp),
     AngularFireModule.initializeApp(config)
@@ -78,6 +85,8 @@ var config = {
     ProfilePage,
     PaymentPage,
     HelpPage,
+    BlockPage,
+    Block2Page,
     BuyerSearchQueuePage,
     BuyerDealDonePage,
     BuyerReceiptPage,

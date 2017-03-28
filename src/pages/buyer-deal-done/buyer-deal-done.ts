@@ -1,11 +1,12 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { NavController, NavParams, ModalController, AlertController, ViewController } from 'ionic-angular';
+import { NavController, NavParams, ModalController, AlertController, ViewController, PopoverController } from 'ionic-angular';
 import { AngularFire, FirebaseObjectObservable } from 'angularfire2';
 import { Subscription } from 'rxjs/Subscription';
 
 import { Users } from '../../model/users.model';
 import { Home } from '../home/home';
 import { BuyerReceiptPage } from '../buyer-receipt/buyer-receipt';
+import { Block2Page } from '../block2/block2';
 
 @Component({
   selector: 'page-buyer-deal-done',
@@ -24,7 +25,7 @@ export class BuyerDealDonePage implements OnInit, OnDestroy {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
               public modalCtrl:ModalController, public alertCtrl:AlertController,
-              public viewCtrl:ViewController, public af : AngularFire){
+              public viewCtrl:ViewController, public af : AngularFire, public popoverCtrl:PopoverController){
                 this.passUser = navParams.get('connectedUser');
               }
 
@@ -143,6 +144,15 @@ export class BuyerDealDonePage implements OnInit, OnDestroy {
     });
     confirm.present();
 
+  }
+
+  report(myevent){
+     let popover = this.popoverCtrl.create(Block2Page);
+      popover.present(
+        {
+  ev: myevent
+}
+      );
   }
 
 }

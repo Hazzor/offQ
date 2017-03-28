@@ -1,10 +1,12 @@
 import { Component, OnInit , OnDestroy } from '@angular/core';
-import { NavController, NavParams, AlertController, LoadingController, ModalController } from 'ionic-angular';
+import { NavController, NavParams, PopoverController , AlertController, LoadingController, ModalController } from 'ionic-angular';
 import { FirebaseObjectObservable , AngularFire } from 'angularfire2';
 import { Subscription } from 'rxjs/Subscription';
 
+
 import { Users } from '../../model/users.model';
-import {Home} from '../home/home';
+import { Home } from '../home/home';
+import { Block2Page } from '../block2/block2';
 import { SellerReceiptPage } from '../seller-receipt/seller-receipt';
 
 @Component({
@@ -22,7 +24,7 @@ export class SellerDealDonePage implements OnInit, OnDestroy {
   notify : boolean = false;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl:AlertController,
-              public loadingCtrl : LoadingController, public modalCtrl : ModalController, public af : AngularFire) {
+              public loadingCtrl : LoadingController, public modalCtrl : ModalController, public af : AngularFire, public popoverCtrl:PopoverController) {
                 this.userData = navParams.get('userData');
               }
 
@@ -67,6 +69,15 @@ export class SellerDealDonePage implements OnInit, OnDestroy {
       if(this.secondSub){
         this.secondSub.unsubscribe();
       }
+    }
+
+    report(myEvent){
+       let popover = this.popoverCtrl.create(Block2Page);
+      popover.present(
+        {
+  ev: myEvent
+}
+      );
     }
 
     notifyBuyer(){

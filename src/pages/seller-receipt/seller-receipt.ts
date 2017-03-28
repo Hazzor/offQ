@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController } from 'ionic-angular';
 
 import { Home } from '../home/home';
+import { Ionic2RatingModule } from 'ionic2-rating';
+
 
 @Component({
   selector: 'page-seller-receipt',
@@ -15,7 +17,7 @@ export class SellerReceiptPage {
     this.tip = navParams.get('tip');
   }
 
-  close(){
+  submit(){
     this.viewCtrl.dismiss();
   }
 

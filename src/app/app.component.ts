@@ -13,7 +13,6 @@ import { HelpPage } from '../pages/help/help';
 import { DataProvider } from '../providers/data';
 import { AuthProvider } from '../providers/auth';
 
-
 @Component({
   templateUrl: 'app.html'
 })

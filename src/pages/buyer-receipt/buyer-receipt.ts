@@ -4,6 +4,7 @@ import { AngularFire, FirebaseObjectObservable } from 'angularfire2';
 
 import { Users } from '../../model/users.model';
 import { Home } from '../home/home';
+import { Ionic2RatingModule } from 'ionic2-rating';
 
 @Component({
   selector: 'page-buyer-receipt',
@@ -24,7 +25,7 @@ export class BuyerReceiptPage implements OnInit {
     this.user = this.af.database.object('/users/'+ this.userData.$key);
   }
 
-  close(){
+  submit(){
     this.user.remove();
     this.viewCtrl.dismiss();
     // this.navCtrl.setRoot(Home);
