@@ -20,13 +20,13 @@
     </ion-item>
   </ion-list>-->
 
- <ion-list *ngIf = "!searchPosts">
-    <ion-item  *ngFor="let post of posts" (click)="locationClicked(post.geometry.location.lat, post.geometry.location.lng, post.name)">
+<ion-list *ngIf = "!searchPosts">
+    <ion-item  *ngFor="let post of posts" (click)="locationClicked(post.coordinate,post.name)">
           <ion-icon name="ios-pin" item-left color="gray"></ion-icon>
-            <h2><b>{{post.name}}</b></h2>
+            <h2 text-wrap><b>{{post.name}}</b></h2>
             
     </ion-item>
-  </ion-list>
+</ion-list>
 
 
 
@@ -39,10 +39,9 @@
   </ion-list>-->
 
   <ion-list *ngIf = "searchPosts">
-    <ion-item *ngFor="let searchPost of searchPosts" (click)="locationClicked(searchPost.geometry.location.lat, searchPost.geometry.location.lng, searchPost.name)">
+    <ion-item *ngFor="let searchPost of searchPosts" (click)="locationClicked(searchPost.coordinate, searchPost.name)">
       <ion-icon name="ios-pin" item-left color="gray"></ion-icon>
-      <h2><b>{{searchPost.name}}</b></h2>
-      <!-- <img [src]="post.data.url" /> -->
+      <h2 text-wrap><b>{{searchPost.name}}</b></h2>
     </ion-item>
   </ion-list>
 
